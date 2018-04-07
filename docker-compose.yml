@@ -1,0 +1,8 @@
+version: '3'
+services:
+  jenkins:
+    image: jenkinsci/blueocean:1.4.2
+    volumes:
+      jenkins: 
+volumes:
+  jenkins:
